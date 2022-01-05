@@ -32,3 +32,9 @@ gunicorn run:app
 ## 正常运行
 - 万次请求毫秒级响应
 - 完美适配VoS外部黑名单系统
+
+# 更完美的方案
+因为以上代码是用Flask写的，很多前台后台的管理界面都没有，所以我决定将其用Django重写一遍，地址见：
+
+https://github.com/leialbert/voip-check 
+
